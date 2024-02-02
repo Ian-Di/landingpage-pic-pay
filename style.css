@@ -31,12 +31,18 @@
 
 .list-nav{
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .list-nav a{
    text-decoration: none;
    font-size: 3vh;
+   color: black;
+}
+
+.list-nav a:hover{
+   color: #00cc73;
+
 }
 
 .header{
@@ -96,7 +102,7 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
 
-    padding: 30px 30px;
+    padding: 10px 30px;
     gap: 90px;
 
     border: 2.5px solid #7de5b0;
@@ -108,5 +114,133 @@
 .card-text{
     display: flex;
     flex-direction: column;
+    gap: 70px;
+    text-align: justify;
+}
+
+.botoom a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.botoom img{
+    height: 50px;
+    background-color: #00cc73;
+    border-radius: 50%;
+}
+
+.more-svcs{
+    display: flex;
+    justify-content: center;
+    padding: 100px 90px;
+}
+
+.in-more{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 30px 20px;
+
+    border: 2.5px solid #00000005;
+    background-color: #7de5b0;
+    box-shadow: 3px 5px rgba(47, 46, 46, 0.154);
+    border-radius: 20px;
+}
+
+.cards-more{
+    display: flex;
+    flex-direction: column;
     gap: 20px;
+
+    text-align: left;
+    padding: 0px 20px;
+}
+
+.cards-more .botoom img{
+    background-color: #ffffff;
+}
+
+.contact{
+    display: flex;
+    padding: 100px 0px;
+    justify-content: center;
+    background-color: #00cc73;
+}
+
+.in-contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 150px;
+}
+
+.text-contact{
+    display: flex;
+    gap: 90px;
+}
+
+.img-contact{
+    display: flex;
+    height: 20em;
+    padding: 10px 50px;
+
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 3px 5px rgba(47, 46, 46, 0.154);
+}
+
+.card-contact{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    gap: 10px;
+    text-align: center;
+
+    border: 2px solid rgba(255, 255, 255, 0.183);
+    border-radius: 10px;
+
+    background-color: #7de5b0;
+    box-shadow: 3px 5px rgba(47, 46, 46, 0.154);
+}
+
+.card-contact img{
+    display: flex;
+    height: 20vh;
+    padding: 2px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.card-contact:hover{
+    padding: 25px 15px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 5px 10px rgba(47, 46, 46, 0.708);
+}
+
+.footer{
+    display: flex;
+
+    padding: 30px 0px;
+    justify-content: center;
+}
+
+.in-footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 10em;
+}
+
+.p1-footer img{
+    height: 4.5rem;
+}
+
+.p2-footer{
+    display: flex;
+    list-style: none;
+    gap: 12em;
+    line-height: 30px;
 }
